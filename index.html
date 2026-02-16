@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeGuzman Parts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><i class="fas fa-microchip"></i> DeGuzman Parts</a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#builds">PC Builds</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i> <span class="cart-count">2</span></a>
+                    <a href="#" class="user-icon"><i class="fas fa-user"></i></a>
+                </div>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Build A Powerful <span class="highlight">PC</span></h1>
+                <p>Components for gaming, content creation, and professional workloads.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Buy Now</a>
+                    <a href="#builds" class="btn btn-secondary">Custom PCs</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img src="images/computer.jpg" alt="Picture of a pc build" width="800" height="350">
+                    <p>High Performance Gaming PC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories" id="categories">
+        <div class="container">
+            <h2 class="section-title">Shop By Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Processors</h3>
+                    <p>Intel & AMD</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Graphics Cards</h3>
+                    <p>NVIDIA & AMD</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <h3>Memory</h3>
+                    <p>RAM & Storage</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Motherboards</h3>
+                    <p>E-ATX, ATX, Micro-ATX, Mini-ITX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-badge">Bestseller</div>
+                    <div class="product-image">
+                        <div class="image-placeholder">
+                            <img src="images/9800x3d.jpg" alt="AMD Ryzen 7 9800x3d Processor" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">AMD Ryzen 7 9800X3D</h3>
+                        <p class="product-desc">8-Core, 16-Thread Processor</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-count">(142)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$499</span>
+                            <span class="old-price">$550</span>
+                        </div>
+                        <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <div class="product-image">
+                        <div class="image-placeholder">
+                            <img src="images/5090.jpg" alt="Nvidia RTX 5090 32GB" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">NVIDIA GeForce RTX 5090</h3>
+                        <p class="product-desc">32GB GDDR7 Graphics Card</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(89)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$2,599</span>
+                        </div>
+                        <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-badge">Sale</div>
+                    <div class="product-image">
+                        <div class="image-placeholder">
+                            <img src="images/vulcan.jpg" alt="T-Force Vulcan 32GB" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">T-Force Vulcan 32GB</h3>
+                        <p class="product-desc">DDR5 6000Mts CL30 Memory Kit</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span class="rating-count">(203)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$500</span>
+                            <span class="old-price">$101</span>
+                        </div>
+                        <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="image-placeholder">
+                            <img src="images/mobo.jpg" alt="MSI Pro B850-P Wifi Motherboard" width="600" height="400">
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">MSI PRO B850-P Wifi</h3>
+                        <p class="product-desc">AMD AM5 Motherboard</p>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span class="rating-count">(56)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$210</span>
+                        </div>
+                        <button class="btn btn-add-to-cart"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="#" class="btn btn-outline">View All Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PC Builds Section -->
+    <section class="builds" id="builds">
+        <div class="container">
+            <h2 class="section-title">Pre-Built PCs</h2>
+            <div class="builds-grid">
+                <div class="build-card">
+                    <h3>Starter Gaming PC</h3>
+                    <ul class="build-specs">
+                        <li>AMD Ryzen 5 7500f</li>
+                        <li>NVIDIA RTX 5060 8GB</li>
+                        <li>16GB DDR5 RAM</li>
+                        <li>500GB NVMe SSD</li>
+                    </ul>
+                    <div class="build-price">$1,200</div>
+                    <button class="btn btn-primary">Customize This PC</button>
+                </div>
+                
+                <div class="build-card featured">
+                    <div class="featured-badge">Best Seller</div>
+                    <h3>Mid Tier Gaming PC</h3>
+                    <ul class="build-specs">
+                        <li>Ryzen 5 9600x</li>
+                        <li>NVIDIA RTX 5070 12GB</li>
+                        <li>32GB DDR5 RAM</li>
+                        <li>1TB NVMe SSD</li>
+                    </ul>
+                    <div class="build-price">$2,000</div>
+                    <button class="btn btn-primary">Customize This PC</button>
+                </div>
+                
+                <div class="build-card">
+                    <h3>Enthusiast Class PC</h3>
+                    <ul class="build-specs">
+                        <li>AMD Ryzen 7 9850X3D</li>
+                        <li>NVIDIA RTX 5090 32GB</li>
+                        <li>64GB DDR5 RAM</li>
+                        <li>4TB NVMe SSD</li>
+                    </ul>
+                    <div class="build-price">$4,500</div>
+                    <button class="btn btn-primary">Customize This PC</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated with our promos!</h2>
+                <p>Subscribe to our newsletter for exclusive discounts and new stocks!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-- Testimonials Section -->
+<section class="testimonials" id="testimonials">
+    <div class="container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"Built my first gaming PC with parts from DeGuzman. Amazing quality and the customer support helped me choose the perfect components. Will definitely buy again!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Michael Reyes</h4>
+                        <p>Gaming Enthusiast</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">"The RTX 5090 arrived earlier than expected. Packaging was secure and the price was competitive. These guys are legit. My 4K gaming setup is complete!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>Sarah Chen</h4>
+                        <p>Content Creator</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="testimonial-text">"Great selection of components and the pre-built PC I ordered works flawlessly. The cable management inside the case was impressive. Highly recommended!"</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="author-info">
+                        <h4>David Torres</h4>
+                        <p>Software Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Footer -->
+<footer class="footer" id="about">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3><i class="fas fa-microchip"></i> DeGuzman Parts</h3>
+                <p>Your trusted source for premium PC components and custom builds since 2015.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#builds">PC Builds</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Baguio City, Benguet</li>
+                    <li><i class="fas fa-phone"></i> (555) 555-5555</li>
+                    <li><i class="fas fa-envelope"></i> info@dgparts.com</li>
+                    <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-bottom-links">
+                <a href="#">Terms & Conditions</a>
+                <span class="separator">|</span>
+                <a href="#">Privacy Policy</a>
+                <span class="separator">|</span>
+                <a href="#">Cookie Policy</a>
+                <span class="separator">|</span>
+                <a href="#">Sitemap</a>
+            </div>
+            <p>&copy; 2026 DeGuzman Parts. All rights reserved. Built with <i class="fas fa-heart" style="color: var(--primary-color);"></i> for the PC community.</p>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const nav = document.querySelector('.nav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+        
+        // Add to cart functionality
+        const addToCartButtons = document.querySelectorAll('.btn-add-to-cart');
+        const cartCount = document.querySelector('.cart-count');
+        let count = 2;
+        
+        addToCartButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                count++;
+                cartCount.textContent = count;
+                
+                // Add visual feedback
+                button.innerHTML = '<i class="fas fa-check"></i> Added!';
+                button.style.backgroundColor = '#28a745';
+                
+                setTimeout(() => {
+                    button.innerHTML = '<i class="fas fa-cart-plus"></i> Add to Cart';
+                    button.style.backgroundColor = '';
+                }, 1500);
+            });
+        });
+        
+        // Newsletter form submission
+        const newsletterForm = document.querySelector('.newsletter-form');
+        newsletterForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const emailInput = newsletterForm.querySelector('input[type="email"]');
+            alert(`Thank you for subscribing with ${emailInput.value}! You'll receive our next newsletter.`);
+            emailInput.value = '';
+        });
+    </script>
+</body>
+</html>
